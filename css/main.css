@@ -73,9 +73,24 @@
         display: block;
         text-align: left;
     }
+    .static-title {
+        font-size: 20px ;
+    }
+    
+    .dynamic-title {
+        font-size: 85px;
+    }
 }
 
-
+@media screen and (max-width: 600px) {
+    .static-title {
+        font-size: 20px !important;
+    }
+    
+    .dynamic-title {
+        font-size: 85px !important;
+    }
+  }
 
 
 
@@ -191,7 +206,7 @@
 .about-us {
     font-family: 'Inter', sans-serif;
     color: #000;
-    padding-top: 7vh;
+    padding-top: 5vh;
     padding-right: 15vw;
     padding-left: 15vw;
     margin-bottom: 0%;
@@ -210,7 +225,7 @@
     padding-left: 15vw;
     margin-bottom: 0%;
     font-variation-settings: 'wght' 400;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     text-align: center;
     justify-content: center;
